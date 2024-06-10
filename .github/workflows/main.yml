@@ -1,0 +1,16 @@
+name: github actions on S3
+on:
+  push:
+      branches:
+        - master
+jobs:
+  build:
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Deploy
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |　# S3のbucket-for-deploying-react-projectバケットにデプロイ
+          aws s3 cp --recursive --region ap-northeast-1 build s3://s3-for-david-react-app
