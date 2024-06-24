@@ -1,3 +1,7 @@
+こちらのページの記事になります。
+https://cosicosilife.com/2024/06/10/github-action-%e3%81%a7-s3-%e3%81%abreact-%e9%9d%99%e7%9a%84%e3%82%b5%e3%82%a4%e3%83%88%e3%81%ae%e5%86%85%e5%ae%b9%e3%82%92%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5%e3%81%99%e3%82%8b/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
